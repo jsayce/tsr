@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dstTotalSQLRecall" targetNamespace="http://tempuri.org/dstTotalSQLRecall.xsd" xmlns:mstns="http://tempuri.org/dstTotalSQLRecall.xsd" xmlns="http://tempuri.org/dstTotalSQLRecall.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dstTotalSQLRecall" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dstTotalSQLRecall" msprop:Generator_DataSetName="dstTotalSQLRecall">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RecentQueries" msprop:Generator_UserTableName="RecentQueries" msprop:Generator_RowDeletedName="RecentQueriesRowDeleted" msprop:Generator_TableClassName="RecentQueriesDataTable" msprop:Generator_RowChangedName="RecentQueriesRowChanged" msprop:Generator_RowClassName="RecentQueriesRow" msprop:Generator_RowChangingName="RecentQueriesRowChanging" msprop:Generator_RowEvArgName="RecentQueriesRowChangeEvent" msprop:Generator_RowEvHandlerName="RecentQueriesRowChangeEventHandler" msprop:Generator_TablePropName="RecentQueries" msprop:Generator_TableVarName="tableRecentQueries" msprop:Generator_RowDeletingName="RecentQueriesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QueryID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="QueryID" msprop:Generator_ColumnPropNameInRow="QueryID" msprop:Generator_ColumnVarNameInTable="columnQueryID" msprop:Generator_ColumnPropNameInTable="QueryIDColumn" type="xs:int" />
+              <xs:element name="ExecutionDate" msprop:Generator_UserColumnName="ExecutionDate" msprop:Generator_ColumnPropNameInRow="ExecutionDate" msprop:Generator_ColumnVarNameInTable="columnExecutionDate" msprop:Generator_ColumnPropNameInTable="ExecutionDateColumn" type="xs:dateTime" />
+              <xs:element name="ExecutionLength" msprop:Generator_UserColumnName="ExecutionLength" msprop:Generator_ColumnPropNameInRow="ExecutionLength" msprop:Generator_ColumnVarNameInTable="columnExecutionLength" msprop:Generator_ColumnPropNameInTable="ExecutionLengthColumn" type="xs:long" />
+              <xs:element name="SQL" msprop:Generator_UserColumnName="SQL" msprop:Generator_ColumnPropNameInRow="SQL" msprop:Generator_ColumnVarNameInTable="columnSQL" msprop:Generator_ColumnPropNameInTable="SQLColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
